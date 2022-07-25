@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    color: white;
+
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+:root{
+    --main-bg-color:#dde4ff;
+    --main-bg-color1:#dde4ff;
+}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+    ul li{
+        list-style: none;
+    }
+    a:link{
+        color: white;
+  background-color: transparent;
+  text-decoration: none;
+    }
+    .footerTitle[_ngcontent-gme-c136] {
+        text-align: left;
+        font-size: 14px;
+        font-weight: 600;
+        color: #99d9d9;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+    }
+    .footerTitle[_ngcontent-cru-c136] {
+        text-align: left;
+        font-size: 14px;
+        font-weight: 600;
+        color: #99d9d9;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+        
+    }
+    .footerTitle[_ngcontent-cru-c136] {
+        text-align: left;
+        font-size: 14px;
+        font-weight: 600;
+        color: #99d9d9;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+    }
+    #emblem{
+        width:1.50rem ;
+        height:2.10rem ;
+        margin: 1rem;
+    }
+    #text{
+        color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    text-decoration: none;
+    font-weight: 400;
+    padding-top: .8rem;
+
+    }
+    .setbg{
+        background-color: var(--main-bg-color);
+    }
+    .insidebgset{
+        background-color: var(--main-bg-color1);
+    }
+    body{
+        overflow-x: hidden;
+    }
